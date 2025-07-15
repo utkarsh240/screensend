@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Utkarsh-s-workspace-pnlnd3.us-east-1.xata.sh/db/screensend",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

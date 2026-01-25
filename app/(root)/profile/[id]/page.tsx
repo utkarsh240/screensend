@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '@/components/Header'
 
-const page = () => {
+const page = async({params} : ParamsWithSearch) => {
+  const {id} = await params;
   return (
-    <div>page</div>
+    <div className='wrapper page'>
+      <Header subHeader="utkarsh@me" title="Utkarsh" userImg="/assets/images/dummy.jpg"/>
+      <h1 className='text-2xl font-karla'>USER ID: {id} </h1>
+    </div>
   )
 }
 

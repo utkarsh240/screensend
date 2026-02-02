@@ -22,18 +22,39 @@ const page = () => {
           <p>I make screen recording easy</p>
           <article>
             <Image src="/assets/images/jason.png" alt='jason' width={64} height={64} className='rounded-full'/>
-            <div>
+            <aside>
             <h2>
               Utkarsh Gupta
             </h2>
             <p>Software Developer </p>
-            </div>
+            </aside>
+            <p>2026 </p>
           </article>
         </section>
       </div>
 
 
     </aside>
+    <aside className='google-sign-in'>
+      <section>
+        <Link href="/">
+        <Image src="/assets/icons/logo.svg" alt="logo" width={40} height={40}/>
+        <h1>
+          Screensendd
+        </h1>
+
+        <p>Create and share your screen recording video in no time</p>
+
+
+        <button>
+            <Image src="/assets/icons/google.svg" alt="google" width={22} height={22}/>
+            <span>Sign in with google</span>
+        </button>
+
+        </Link>
+      </section>
+    </aside>
+    <div className='overlay'/>
     </main>
   )
 }

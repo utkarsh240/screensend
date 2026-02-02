@@ -6,13 +6,14 @@ import type {
 
 
 
+export type DatabaseSchema = {};
 
 const DatabaseClient = buildClient();
 
 const defaultOptions = {
   databaseURL:
-    "https://Utkarsh-s-workspace-pnlnd3.us-east-1.xata.sh/db/screensend",
-    apiKey:process.env.XATA_API_KEY,
+    "https://Utkarsh-s-workspace-pnlnd3.us-east-1.xata.sh/db/screensendd",
+    apiKey: process.env.XATA_API_KEY,
     branch: 'main'
 };
 

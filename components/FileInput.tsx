@@ -1,8 +1,18 @@
 import React from 'react'
 
-const FileInput = () => {
+const FileInput = ({id, label, accept, file, previewUrl, inputRef, onChange, onReset, type}: FileInputProps) => {
   return (
-    <div>FileInput</div>
+    <section className='file-input'>
+      <label htmlFor="id">{label}</label>
+      <input type="file"
+      id={id}
+      accept={accept}
+      ref={inputRef}
+      hidden
+
+      onChange={onChange}
+      />
+    </section>
   )
 }
 
